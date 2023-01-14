@@ -1,0 +1,71 @@
+/*.no-transition,
+.no-transition *{
+    transition: unset !important;
+}*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 0;
+    border: 0;
+}
+html,body{
+    width: 100%;
+    min-height: 100vh;
+    float: left;
+}
+a,span{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul,li
+ol,li{
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+/*input[type='radio'],
+input[type='checkbox'],
+input[type='search'],
+input[type='number'],
+select
+{
+    appearance: none;
+}*/
+p:empty{
+    display: none;
+}
+.center{
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+.full_w{
+    width: 100%;
+    float: left;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify_end{
+    justify-content: flex-end;
+}
+.align_center{
+    align-items: center;
+}
+.direction-column{
+    flex-direction: column;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position:absolute;
+}

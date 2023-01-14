@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="favicon icon" href="assets/image/documentary.png?v=1.0.0" sizes="64x64"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <title>Target</title>
+</head>
+<body>
+    <a href="#giris">Giris</a>
+    <a href="#qeydiyyat">Qeydiyyat</a>
+    <div class="giris" id="giris">
+        <div class="giris_form">
+            <div class="x-box">
+              <a href="#"><i class="fa-solid fa-x"></i></a>
+            </div>
+            <h2 class="form-header">Şəxsi Kabinet</h2>
+            <input type="email" name="" class="login-input"  required placeholder="Email"/>
+            <input type="password" name="" class="login-input" minlength="5" required placeholder="Şifrə"/>
+            <button type="submit" class="giris-btn">Giriş</button>
+            <a href="#qeydiyyat" class="giris-link">Qeydiyyat</a>
+        </div>
+    </div>
+    <div class="qeydiyyat" id="qeydiyyat">
+        <div class="qeydiyyat_form">
+            <div class="x-box">
+              <a href="#"><i class="fa-solid fa-x"></i></a>
+            </div>
+            <h2 class="form-header">Qeydiyyat</h2>
+            <input type="text" name="" class="login-input"  required placeholder="Ad və Soyad"/>
+            <input type="email" name="" class="login-input" minlength="5" required placeholder="Email"/>
+            <button type="submit" class="giris-btn">Təsdiq et</button>
+            <a href="#giris" class="giris-link">Şəxsi Kabinet</a>
+        </div>
+    </div>
+</body>
+</html>
